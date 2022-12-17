@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test Started]]>
+    </line>
+    <line>
+      <![CDATA[Setting Done- Test can be Started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser and getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and Application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >>>> A report generated]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-17T22:36:11 GMT" name="Suite" finished-at="2022-12-17T22:36:23 GMT" duration-ms="12838">
+    <groups>
+    </groups>
+    <test started-at="2022-12-17T22:36:11 GMT" name="Test" finished-at="2022-12-17T22:36:23 GMT" duration-ms="12838">
+      <class name="com.automationframework.test.TC_FromConfig000_2">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.automationframework.test.TC_FromConfig000_2@4550bb58]" started-at="2022-12-17T22:36:09 GMT" name="setUpSuite" finished-at="2022-12-17T22:36:11 GMT" duration-ms="1304" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test Started]]>
+            </line>
+            <line>
+              <![CDATA[Setting Done- Test can be Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationframework.test.TC_FromConfig000_2@4550bb58]" started-at="2022-12-17T22:36:11 GMT" name="setUp" finished-at="2022-12-17T22:36:20 GMT" duration-ms="9078" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser and getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and Application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.automationframework.test.TC_FromConfig000_2@4550bb58]" started-at="2022-12-17T22:36:20 GMT" name="loginTest" finished-at="2022-12-17T22:36:20 GMT" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeDown(org.testng.ITestResult)[pri:0, instance:com.automationframework.test.TC_FromConfig000_2@4550bb58]" started-at="2022-12-17T22:36:20 GMT" name="closeDown" finished-at="2022-12-17T22:36:22 GMT" duration-ms="1859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=TC_FromConfig000_2.loginTest()[pri:0, instance:com.automationframework.test.TC_FromConfig000_2@4550bb58] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >>>> A report generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationframework.test.TC_FromConfig000_2@4550bb58]" started-at="2022-12-17T22:36:22 GMT" name="tearDown" finished-at="2022-12-17T22:36:23 GMT" duration-ms="1397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationframework.test.TC_FromConfig000_2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
