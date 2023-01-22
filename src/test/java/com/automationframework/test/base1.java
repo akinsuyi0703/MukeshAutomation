@@ -42,17 +42,20 @@ public class base1 {
 	extent = new ExtentReports();
 	File file = new File("index.html");
 	spark = new ExtentSparkReporter(file);//html file will be generated
-	//spark.loadXMLConfig(new File("extentconfig.xml"));
+	spark.loadXMLConfig(new File("./src/test/resources/extent-config.xml"));
 	extent.attachReporter(spark);
 	Reporter.log("Setting Done- Test can be Started", true);
 	
 	}
 	
+	@Parameters({"browser", "urlToBeTested"})
 	@BeforeClass
-	public void setUp() {
+	public void setUp(String browser, String url) {
+	//public void setUp() {
 	
 	Reporter.log("Trying to start browser and getting application ready", true);
-	driver=browserFactory.startAplication(driver, config.getBrowser(), config.getStagingURL());
+	//driver=browserFactory.startAplication(driver, config.getBrowser(), config.getStagingURL());
+	driver=browserFactory.startAplication(driver, browser, url);
 	
 	Reporter.log("Browser and Application is up and running", true);
 	

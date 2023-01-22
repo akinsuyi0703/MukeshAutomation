@@ -7,6 +7,7 @@ import com.automationframework.pages.loginPage;
 import com.automationframework.utilities.helperClass;
 
 
+
 public class TC_FromConfig000_2 extends base1{
 	
 	

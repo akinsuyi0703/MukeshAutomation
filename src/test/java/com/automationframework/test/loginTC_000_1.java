@@ -20,7 +20,7 @@ public class loginTC_000_1 extends base1{
 		
 		logger.info("Starting Application");
 		
-		lp.login("mngr463587", "yrYzAqA");
+		lp.login("mngr470243", "zadUvEz");
 		
 		logger.pass("Login successfully");
 		
@@ -37,7 +37,7 @@ public class loginTC_000_1 extends base1{
 		
 		logger.info("Starting Application");
 		
-		lp.login("mngr463582", "yrYzAqA");
+		lp.login("mngr470243", "zadUvEz");
 		
 		logger.pass("Login successfully");
 		

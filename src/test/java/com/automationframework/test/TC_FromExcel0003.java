@@ -22,6 +22,8 @@ public class TC_FromExcel0003 extends base1{
 		
 		lp.login(excel.getStringData("Sheet1", 0, 0), excel.getStringData("Sheet1", 0, 1));
 		
+		//lp.login(excel.getStringData("Sheet1", 1, 1), excel.getStringData("Sheet1", 1, 2)); not sure if its correct
+		
 		logger.pass("Login successfully");
 		
 		helperClass.captureScreenshot(driver);
